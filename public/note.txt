@@ -1,0 +1,17 @@
+packages and apis used in this project
+
+-Battery Status API: Used to monitor the battery status of the device.
+
+-react-rnd : A React component that allows for resizable and draggable elements.
+
+
+
+what else feaatures can be added to this project?
+Here are some additional features that could be added to the project:
+1. Dark Mode: Implement a dark mode feature to enhance user experience, especially in low-light environments.
+3. Notifications: Add push notifications to alert users about important updates or reminders.
+6. Customizable Themes: Allow users to customize the appearance of the application with different themes and color schemes.
+7. Multi-language Support: Add support for multiple languages to cater to a wider audience.
+
+9. Data Export/Import: Allow users to export their data in various formats (e.g., CSV, JSON) and import data from other sources.
+
