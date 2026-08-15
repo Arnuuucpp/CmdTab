@@ -3,6 +3,15 @@ nav {
     align-items: center;
     justify-content: space-between;
     color: white;
+    background: rgba(0, 0, 0, 0.18);
+    backdrop-filter: blur(12px);
+    padding: 0.4rem 0.7rem;
+    height: 36px;
+    background-color: rgba(63, 63, 63, 0.393);
+    backdrop-filter: blur(5px);
+    font-family: "SF Pro Display", "SF Pro Text", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
 
     .nav-div {
         background-color: rgba(63, 63, 63, 0.393);
@@ -12,5 +21,95 @@ nav {
         display: flex;
         align-items: center;
         justify-content: space-between;
+    }
+
+    .left,
+    .right {
+        display: flex;
+        gap: 0.85rem;
+        align-items: center;
+    }
+
+    .right {
+        margin-left: auto;
+    }
+
+    .Date-Time {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-width: 92px;
+    }
+
+    .date-time {
+        font-size: 0.78rem;
+        font-weight: 600;
+        letter-spacing: 0.04em;
+        color: rgba(255, 255, 255, 0.9);
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+        user-select: none;
+    }
+
+    .battery-status {
+        display: flex;
+        align-items: center;
+        gap: 0.4rem;
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: rgba(255, 255, 255, 0.9);
+    }
+
+    .battery-status.unavailable {
+        opacity: 0.7;
+    }
+
+    .battery-icon {
+        position: relative;
+        width: 1.9rem;
+        height: 1rem;
+        border: 1.5px solid rgba(255, 255, 255, 0.8);
+        border-radius: 0.25rem;
+        overflow: hidden;
+        background: rgba(255, 255, 255, 0.08);
+        display: flex;
+        align-items: center;
+    }
+
+    .battery-icon::after {
+        content: "";
+        position: absolute;
+        right: -0.18rem;
+        top: 0.2rem;
+        width: 0.12rem;
+        height: 0.52rem;
+        background: rgba(255, 255, 255, 0.8);
+        border-radius: 0.08rem;
+    }
+
+    .battery-fill {
+        position: absolute;
+        inset: 0 auto 0 0;
+        background: linear-gradient(90deg, #8be89d, #d8ff8e);
+        transition: width 0.3s ease;
+    }
+
+    .battery-icon.charging .battery-fill {
+        background: linear-gradient(90deg, #7ef7b0, #d7ff80);
+    }
+
+    .bolt {
+        position: absolute;
+        inset: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.52rem;
+        color: rgba(0, 0, 0, 0.75);
+        z-index: 1;
+    }
+
+    .battery-percent {
+        min-width: 2rem;
+        text-align: right;
     }
 }
