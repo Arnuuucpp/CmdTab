@@ -4,7 +4,7 @@ import "./MacWindow.scss"
 
 const MacWindow = ({ children }) => {
   return (
-    <Rnd>
+    <Rnd >
       <div className='window'>
         <nav className='window-nav'>
           <div className='dots'>

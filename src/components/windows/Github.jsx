@@ -4,6 +4,7 @@ import GithubData from "../../assets/github.json";
 import "./github.scss";
 
 const GitCard = ({ data = { id: 1, image: "", title: "", description: "", tags: [], repoLink: "", demoLink: "" } }) => {
+    console.log(data);
     return (
         <div className="git-card">
             <img src={data.image} alt={data.title} className="git-card-image" />
