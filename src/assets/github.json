@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "image": "",
+        "title": "gitfolio",
+        "description": "A personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
+        "tags": ["React", "Tailwind CSS", "Portfolio"],
+        "repoLink": "",
+        "demoLink": ""
+    },
+    {
+        "id": 2,
+        "image": "",
+        "title": "Image-editor",
+        "description": "A web-based image editing tool that allows users to upload images and apply various filters and transformations.",
+        "tags": ["JavaScript", "Canvas", "Image Processing"],
+        "repoLink": "",
+        "demoLink": ""
+    },
+    {
+        "id": 3,
+        "image": "",
+        "title": "Weather-app",
+        "description": "A weather forecasting application that fetches real-time weather data from an API and displays it in a user-friendly interface.",
+        "tags": ["JavaScript", "API", "Weather"],
+        "repoLink": "",
+        "demoLink": ""
+    },
+    {
+        "id": 4,
+        "image": "",
+        "title": "Portfolio-website",
+        "description": "A personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
+        "tags": ["JavaScript","Portfolio","Tailwind CSS"],
+        "repoLink": "",
+        "demoLink": ""
+    }
+]
