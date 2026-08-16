@@ -1,38 +1,38 @@
 [
     {
         "id": 1,
-        "image": "",
+        "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1200&q=80",
         "title": "gitfolio",
         "description": "A personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
         "tags": ["React", "Tailwind CSS", "Portfolio"],
-        "repoLink": "",
-        "demoLink": ""
+        "repoLink": "https://github.com/",
+        "demoLink": "https://example.com"
     },
     {
         "id": 2,
-        "image": "",
+        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
         "title": "Image-editor",
         "description": "A web-based image editing tool that allows users to upload images and apply various filters and transformations.",
         "tags": ["JavaScript", "Canvas", "Image Processing"],
-        "repoLink": "",
-        "demoLink": ""
+        "repoLink": "https://github.com/",
+        "demoLink": "https://example.com"
     },
     {
         "id": 3,
-        "image": "",
+        "image": "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?auto=format&fit=crop&w=1200&q=80",
         "title": "Weather-app",
         "description": "A weather forecasting application that fetches real-time weather data from an API and displays it in a user-friendly interface.",
         "tags": ["JavaScript", "API", "Weather"],
-        "repoLink": "",
-        "demoLink": ""
+        "repoLink": "https://github.com/",
+        "demoLink": "https://example.com"
     },
     {
         "id": 4,
-        "image": "",
+        "image": "https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=1200&q=80",
         "title": "Portfolio-website",
         "description": "A personal portfolio website built with React and Tailwind CSS, showcasing my projects and skills.",
-        "tags": ["JavaScript","Portfolio","Tailwind CSS"],
-        "repoLink": "",
-        "demoLink": ""
+        "tags": ["JavaScript", "Portfolio", "Tailwind CSS"],
+        "repoLink": "https://github.com/",
+        "demoLink": "https://example.com"
     }
 ]
