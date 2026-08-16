@@ -1,0 +1,56 @@
+.window {
+    height: 400px;
+    width: 500px;
+    background-color: #070707;
+    border: none;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    color: whitesmoke;
+    border: 0.8px solid wheat;
+    
+
+    .window-nav {
+        background-color: #070707;
+        border-bottom: 1px solid white;
+        display: flex;
+        gap: 0.5rem;
+        padding-inline: 0.5rem;
+        padding-block: 0.25rem;
+        align-items: center;
+        
+        .dots {
+            display: flex;
+            width: 100%;
+            gap: 0.25rem;
+
+            .dot {
+                height: 12px;
+                width: 12px;
+                border-radius: 50%;
+                border: none;
+                cursor: pointer;
+            }
+
+            .dot:active{
+                transform: scale(1.2);
+            }
+
+            .red-dot {
+                background-color: red;
+            }
+
+            .yellow-dot {
+                background-color: yellow;
+            }
+
+            .green-dot {
+                background-color: green;
+            }
+        }
+
+        .title{
+            font-family: "SF Pro Display", "SF Pro Text", "Segoe UI", -apple-system, BlinkMacSystemFont, sans-serif;
+            white-space: nowrap;
+        }
+    }
+}

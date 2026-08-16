@@ -5,7 +5,7 @@ import BatteryStatus from './BatteryStatus'
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav  className='navbar'>
       <div className="left">
         <img src="/public/nav-icons/apple.svg" alt="" />
         <h5>Arnav</h5>
@@ -21,7 +21,6 @@ const Navbar = () => {
         <div className='Date-Time'>
           <DateTime/>
         </div>
-        
       </div>
     </nav>
   )
