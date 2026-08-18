@@ -15,3 +15,8 @@ Here are some additional features that could be added to the project:
 
 9. Data Export/Import: Allow users to export their data in various formats (e.g., CSV, JSON) and import data from other sources.
 
+
+
+bugs facing 
+-scroll prb in the note section: The scroll functionality in the note section is not working as expected, making it difficult for users to navigate through longer notes.
+-Performance issues on low-end devices: The application may experience lag or slow performance on devices with
